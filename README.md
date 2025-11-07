@@ -52,10 +52,10 @@ Aqui o usuário informa um **número** e o JavaScript verifica se ele é **par**
 
 📁 CalculadoraIdade
 │
-├── 📂 css          # Estilos da página
-├── 📂 js           # Lógica JavaScript
-├── 📂 images        # Imagens utilizadas
-└── 📄 index.html    # Página principal
+├── 📂 css          
+├── 📂 js           
+├── 📂 images       
+└── 📄 index.html    
 │
 📁 VerificadorNumeros
 │
