@@ -59,6 +59,6 @@ Aqui o usuário informa um **número** e o JavaScript verifica se ele é **par**
 
 **Ana Beatriz Araujo Fagundes**  
 Estudante de Desenvolvimento de Sistemas (AMS) – ETEC Zona Leste
-[GitHub](https://github.com/fagundessana)
+
 
 ---
