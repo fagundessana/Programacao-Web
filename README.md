@@ -53,3 +53,12 @@ Aqui o usuário informa um **número** e o JavaScript verifica se ele é **par**
    ```bash
    git clone https://github.com/fagundessana/Programacao-Web.git
 
+---
+
+### 👩‍💻 Autoria
+
+**Ana Beatriz Araujo Fagundes**  
+Estudante de Desenvolvimento de Sistemas (AMS) – ETEC Zona Leste
+[GitHub](https://github.com/fagundessana)
+
+---
