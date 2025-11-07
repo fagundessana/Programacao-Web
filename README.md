@@ -48,24 +48,6 @@ Aqui o usuário informa um **número** e o JavaScript verifica se ele é **par**
 
 ---
 
-## 📂 Estrutura do Projeto  
-
-📁 CalculadoraIdade
-│
-├── 📂 css          
-├── 📂 js           
-├── 📂 images       
-└── 📄 index.html    
-│
-📁 VerificadorNumeros
-│
-├── 📂 css
-├── 📂 js
-├── 📂 img
-└── 📄 index.html
-
----
-
 ## 🚀 Como Executar  
 1. Faça o clone do repositório:
    ```bash
