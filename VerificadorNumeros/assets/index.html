@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Verificador de Números Pares e Ímpares</title>
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="/assets/img/ilustrator.svg" alt="Icone de números">
+        </section>
+        
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">Verificador de Números Pares e Ímpares</h1>
+
+                <div class="input-box">
+                    <label for="numero">Número:</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-list-ol"></i>
+                        <input type="number" id="numero" placeholder="Digite um número">
+                    </div>
+                </div>
+
+                <button type="button" id="verificador">Verificar</button>
+
+                <div class="infos" style="display: none;">
+                    <div id="result">
+                        <span id="label"></span>
+                        <span id="value"></span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="more-info">
+                    <a href="#" target="_blank"> <!--Deu erro :(-->
+                        Clique aqui e divirta-se com mais testes
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                    </a>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+
+    <script src="/assets/js/scriptverificador.js"></script>
+</body>
+</html>
