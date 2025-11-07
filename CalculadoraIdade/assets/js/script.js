@@ -2,13 +2,13 @@
 const form = document.getElementById('form');
 const dataNascimento = document.getElementById('dataNascimento');
 const calculateButton = document.getElementById('calculate');
-const valueSpan = document.querySelector('#years #value');
-const yearsLabel = document.querySelector('#years span:last-child');
+const valueSpan = document.querySelector('#value');
 const descriptionSpan = document.querySelector('#description span');
+const resultDiv = document.querySelector('.infos'); // MUDEI AQUI
 
 // Função para calcular a idade
 function calcularIdade(event) {
-    event.preventDefault(); // Previne o envio do formulário
+    event.preventDefault();
     
     // Pega a data de nascimento
     const dataNasc = new Date(dataNascimento.value);
@@ -59,8 +59,7 @@ function calcularIdade(event) {
     }
     
     // Exibe o resultado 
-    yearsLabel.textContent = '';
-    valueSpan.textContent = ` ${idade} anos`;
+    valueSpan.textContent = `${idade} anos`;
     
     // Mensagem personalizada baseada na idade
     let mensagem = '';
@@ -71,19 +70,16 @@ function calcularIdade(event) {
     } else if (idade < 30) {
         mensagem = `Você é jovem adulto! (${meses} meses e ${dias} dias a mais)`;
     } else if (idade < 60) {
-        mensagem = `Você é adulto!  (${meses} meses e ${dias} dias a mais)`;
+        mensagem = `Você é adulto! (${meses} meses e ${dias} dias a mais)`;
     } else {
-        mensagem = `Você é sênior!  (${meses} meses e ${dias} dias a mais)`;
+        mensagem = `Você é sênior! (${meses} meses e ${dias} dias a mais)`;
     }
     
     descriptionSpan.textContent = mensagem;
     
-    // Mostra o resultado com animação
-    document.getElementById('result').style.display = 'block';
+    // Mostra o resultado
+    resultDiv.style.display = 'block';
 }
 
-// Adiciona evento de submit no formulário
-form.addEventListener('submit', calcularIdade);
-
-// Adiciona evento de click no botão
+// MUDEI AQUI: Como o botão é type="button", precisa do evento click
 calculateButton.addEventListener('click', calcularIdade);
